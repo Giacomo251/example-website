@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Web Site</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body class="wrapper">
+
+        <header class="header">
+            
+            <img src="logo.png" alt="logo dell'azienda" class="logo">
+
+            <div class="header-text">
+                <p class="titolo1">Smith & Partners CPA</p>
+                <p class="titolo2">Expert Tax, Audit, and Advisory Services since 1998</p>
+            </div>
+
+        </header>
+
+
+        <nav class="sidenav">
+                <a href="home.html">Home</a>
+                <a href="services.html">Services</a>
+                <a class="active" href="prices.html">Prices</a>
+                <a href="contact.html">Contact</a>
+        </nav>
+
+
+
+
+
+
+
+
+        <section id="preventivo-section">
+            <h2 class="colore">Request a quote</h2>
+            <p>Select the services you're interested in to see the total price:</p>
+
+            <form id="form-servizi">
+                <div class="checkbox-group">
+                    <label class="riga">
+                        <input type="checkbox" value="150" data-nome="accounting management"> 
+                        accounting management
+                    </label><br><br>
+                    
+                    <label class="riga">
+                        <input type="checkbox" value="80" data-nome="tax return"> 
+                        tax return
+                    </label><br><br>
+                    
+                    <label class="riga">
+                        <input type="checkbox" value="200" data-nome="strategic consulting"> 
+                        strategic consulting
+                    </label><br><br>
+                    
+                    <label class="riga">
+                        <input type="checkbox" value="120" data-nome="payroll management"> 
+                        payroll management
+                    </label><br><br>
+                    <label class="riga">
+                        <input type="checkbox" value="300" data-nome="audit and review"> 
+                        audit and review
+                    </label>
+                </div>
+                
+                <br>
+                <button type="button" onclick="generatabella()" class="bottone">Total</button>
+            </form>
+
+            <hr>
+
+            <div id="contenitore-tabella"></div>
+
+        </section>
+
+
+
+
+
+
+
+
+    <footer class="foot">
+        <p>Smith & Partners CPA | 123 Finance Street, London, UK</p>
+        <p>Phone: +44 123456789 | Email: example@gmail.com</p>
+    </footer>
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

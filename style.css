@@ -1,0 +1,158 @@
+.wrapper{
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #222;
+  color: #fff;
+  font-size: 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.header-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+}
+
+.titolo1{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-style: normal;
+}
+
+.titolo2{
+  margin-top: auto;
+  margin-bottom: 40px;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.sidenav {
+  width: 100%; /* Set the width of the sidebar */
+  position: static; 
+  overflow: hidden;
+  padding-top: 10px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.sidenav a {
+  display: inline-block; /* "inline-block" li mette in riga (prima era block) */
+  color: #818181;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 28px;
+  float: none;           /* Assicuriamoci che non flottino a caso */
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.sidenav a.active{
+  color: #f1f1f1;
+  border: 1px solid #375a7f;
+  background-color: #375a7f;
+  border-radius: 5px;
+}
+
+
+/* Style page content */
+.main {
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.home{
+  margin-top: 20px;
+}
+
+.img-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: auto;
+}
+
+.colore{
+    color:gold;
+}
+
+.colore-2{
+    text-decoration:underline;
+}
+
+.foot{
+    margin-top: 300px;
+}
+
+#form-servizi{
+}
+
+.riga{
+    background-color: goldenrod;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.bottone {
+    background-color: green;
+    color: #fff;
+    border: none; 
+    border-radius: 10px; 
+    padding: 15px;
+    min-height: 30px; 
+    min-width: 120px;
+    font-size: 25px;
+  }
+
+
+.tabella-stile{
+    background-color: grey;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.tr-stile{
+    text-align: left;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.tfoot-stile{
+    font-size: 35px;
+}
+
+.sconto-stile{
+    color:aquamarine
+}
+
+.nuovotot-stile{
+    font-size: 35px;
+    color: gold;
+}
