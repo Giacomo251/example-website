@@ -9,9 +9,13 @@ On the prices page, I created a table with JavaScript that calculates the 10% di
 The contact information is on the contact page.
 
 Additions:
+
 I added a font from Google Fonts to the head and a link to the external style.css file.
+
 In the CSS file, I added various style customizations, particularly a customization for the navbar to make it more responsive to different screens.
+
 I added bulleted lists and some images to the various pages.
+
 I also created an external JavaScript file containing a function that:
 - creates a container to insert the table and cleans it up
 - checks which checkboxes have been checked (if none are checked, it throws an error)
